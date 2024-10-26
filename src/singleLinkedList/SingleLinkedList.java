@@ -38,7 +38,7 @@ public class SingleLinkedList {
     }
 
     public void deleteNode(Node prevNode) {
-        //삭제할 다음 노드 찾기
+        //삭제할 다음 노드 찾아서 저장하기
         Node nextNode = prevNode.next.next;
 
         //노드 삭제
