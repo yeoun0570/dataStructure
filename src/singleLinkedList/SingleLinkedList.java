@@ -26,7 +26,7 @@ public class SingleLinkedList {
     }
 
     public void insertNode(Node findNode, int value) {
-        //삽입할 노드의 next노드를 nextNode 라는 곳에 저장
+        //삽입할 노드의 다음 노드를 nextNode 라는 곳에 저장
         Node nextNode = findNode.next;
 
         //조회한 노드 다음 노드에 새로운 값 적어주고 그곳을 node라는 곳으로 받음
