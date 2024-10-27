@@ -12,7 +12,7 @@ public class MainSingleLinkedList {
             list.addNode(i);
         }
 
-        Node current1 = list.head;
+        singleNode current1 = list.head;
 
         while(current1 != null) {
             System.out.println(current1.value);
@@ -23,7 +23,7 @@ public class MainSingleLinkedList {
 
         list.insertNode(list.head.next, 999);
 
-        Node current2 = list.head;
+        singleNode current2 = list.head;
 
         while(current2 != null) {
             System.out.println(current2.value);
@@ -34,7 +34,7 @@ public class MainSingleLinkedList {
 
         list.deleteNode(list.head.next.next.next);
 
-        Node current3 = list.head;
+        singleNode current3 = list.head;
 
         while(current3 != null) {
             System.out.println(current3.value);
